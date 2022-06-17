@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(104, 101, 101);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+            
+        }
+
+        main{
+            background-color: white;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        article{
+            background-color: lightgray;
+            padding: 2px;
+            margin: 4px;
+
+        }
+        article>aside{
+            background-color: rgb(24, 41, 56);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #indice{
+            background-color: rgba(149, 149, 241, 0.678);
+            text-align: start;
+        }
+        #indice:hover{
+            color: red;
+            padding: 5px;
+            margin: 3px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+            <a href="">LINK</a>
+        </nav>
+    </header>
+    <main>
+         <section id="assuntos">
+            <p id="indice"> Esportes </p>
+            <p id="indice"> Politica </p>
+            <p id="indice"> Tecnologia</p>
+
+         </section>
+         <section id="noticias">
+            <article>
+                <h2>NOTICIAS SOBRE O BRASIL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, fuga totam. Excepturi exercitationem eos autem magni optio sapiente temporibus enim laboriosam placeat necessitatibus, cumque quisquam, consequuntur voluptate reprehenderit. Mollitia, modi! </p>
+                <aside>
+                    <p>Artigo escrito por João Victor</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+         </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por StartGames</p>
+    </footer>
+</body>
+</html>
