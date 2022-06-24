@@ -56,21 +56,39 @@ section{
     font-size: 2.8vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 section.imagem{
-    background-color:rgb(19, 18, 18) ;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+
+section#img01 {
+    background-image: url(../imagens/gamer.jpg);
+    background-position: center center;
+}
+
+section#img02 {
+    background-image: url(../imagens/ROG-Flow-X16-scenario-photo-gaming-with-Xbox-controller-in-tent-mode.webp);
+    background-position: center center;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.473);
+    background-color: rgba(0, 0, 0, 0.575);
+    text-shadow: 1px 1px 0px black;
 
 }
 
