@@ -47,6 +47,47 @@ header a, footer a {
 header a:hover, footer a:hover{
     text-decoration: underline;
 }
+
+#menu-h{
+    background-color: black;
+}
+
+#menu-h p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu-h h1{
+    color: white;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0px;
+    background-color: black;
+    text-align: center;
+}
+
+#menu-h ul li{
+    display: inline;
+    
+}
+
+#menu-h ul a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul a:hover{
+    background-color: rgb(13, 160, 228);
+    border-radius: 10px;
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
