@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: rgb(170, 165, 165);
+        }
+        .b{
+            color: White;
+        }
+        #a{
+            text-align: start;
+            background-color: gray;
+            color: white;
+        }
+        .c{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        th, td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th rowspan="2" class="b" scope="rowgroup">Área</th>
+            <th rowspan="2" class="b" scope="rowgroup">Disciplinas</th>
+            <th colspan="2" class="b" scope="rowgroup">Notas</th>
+            <th rowspan="2" class="b" scope="rowgroup">Media</th>
+            <tr>
+                <td class="c">Nota 1</td>
+                <td class="c">Nota 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <th rowspan="4" scope="colgroup">Exatas</th>
+            <td>Matemática</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tbody id="a">
+            <th colspan="4" style="text-align: start;" scope="col">Media Exatas</th>
+            <td>0.0</td>
+        </tbody>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <th colspan="4" style="text-align: start; background-color: gray; color: white;">Media Exatas</th>
+            <td  style="background-color: gray; color: white;">0.0</td>
+        </tbody>
+    </table>
+</body>
+</html>
