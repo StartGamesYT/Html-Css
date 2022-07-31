@@ -65,24 +65,24 @@ body {
     padding: 12px;
     border-radius: 10px;
     box-shadow: rgb(100, 100,111, 0.2) 0px 7px 29px 0px;
-    transition: opacity ;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
 }
 
 .cartao.selecionado {
     opacity:1;
     z-index: 1;
 }
-
 .fundo-1 {
     background: url(../imagens/fundo-card-1.jpg) no-repeat;
 }
 
 .fundo-2 {
-    background: url(../imagens/fundo-card-1.jpg) no-repeat;
+    background: url(../imagens/fundo-card-2.jpg) no-repeat;
 }
 
 .fundo-3{
-    background: url(../imagens/fundo-card-1.jpg) no-repeat;
+    background: url(../imagens/fundo-card-3.jpg) no-repeat;
 }
 
 .cartao .informacoes {
