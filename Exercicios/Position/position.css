@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 500px;
+}
+#static {
+    width: 80%;
+    height: 200px;
+    position: static;
+    background-color: aqua;
+}
+
+#relative {
+    width: 80%;
+    height: 200px;
+    position: relative;
+    background-color: rgba(0, 224, 0, 0.637);
+    left: 30px;
+    top: 50px;
+}
+
+#absolute { 
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.637);
+    padding-top: 50px;
+    bottom: 10px;
+    right: 10px;
+}
+
+#fixed {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(225,255,255,.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+#stick {
+    position: sticky;
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    left: 10%;
+    bottom: 0;
+}
